@@ -6,5 +6,4 @@ bokeh
 sklearn
 numpy
 datetime
-csv
 os
