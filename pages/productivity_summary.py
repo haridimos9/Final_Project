@@ -94,7 +94,7 @@ def app():
                                     ('Productivity', '@productivity_level{0.2f}')], 
                         formatters={'@startTime': 'datetime', '@endTime': 'datetime'},
                         mode='mouse'))
-    st.bokeh_chart(p, use_container_width=True)
+    st.bokeh_chart(p, use_container_width=True)#
 
     # Select productivity
     emojis = ['😡','😞', '😐', '🙂', '😃']
