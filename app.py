@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import streamlit as st
-
+import matplotlib.pyplot as plt
 # Custom imports 
 from multipage import MultiPage
 from pages import submit_activity, spotify_overview, audio_features_overview, activity_overview, productivity_summary
