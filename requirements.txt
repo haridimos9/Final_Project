@@ -5,4 +5,4 @@ matplotlib
 sklearn
 numpy
 datetime
-bokeh
+bokeh==2.4.1
