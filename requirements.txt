@@ -3,3 +3,9 @@ pandas
 streamlit
 matplotlib
 bokeh
+sklearn
+ast
+numpy
+datetime
+csv
+os
