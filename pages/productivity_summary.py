@@ -80,7 +80,7 @@ def app():
                         tooltips = [('Minute', '@minute_index'), 
                                     ('Avg. Productivity', '@values{0.2f}')],
                         mode='mouse'))
-    st.bokeh_chart(p), use_container_width=True)
+    st.bokeh_chart(p, use_container_width=True)
 
     # Visualization 2
     src = ColumnDataSource(data)
@@ -94,7 +94,7 @@ def app():
                                     ('Productivity', '@productivity_level{0.2f}')], 
                         formatters={'@startTime': 'datetime', '@endTime': 'datetime'},
                         mode='mouse'))
-    st.bokeh_chart(p), use_container_width=True)
+    st.bokeh_chart(p, use_container_width=True)
 
     # Select productivity
     emojis = ['😡','😞', '😐', '🙂', '😃']
