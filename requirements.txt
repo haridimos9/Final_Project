@@ -2,7 +2,7 @@ altair
 pandas
 streamlit
 matplotlib
-bokeh
+bokeh==2.2.2
 sklearn
 numpy
 datetime
