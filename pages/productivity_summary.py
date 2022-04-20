@@ -19,7 +19,7 @@ def app():
     df = pd.read_csv('data/StreamingHistory.csv')
 
     # Select activity
-    option = st.selectbox('Select activity',('Exercise', 'Relax', 'Study', 'Work'))
+    option = st.selectbox('Select activity',('Study', 'Relax', 'Exercise', 'Work'))
 
     # Select dates
     cols = st.columns(2)
@@ -96,10 +96,12 @@ def app():
                         mode='mouse'))
     st.bokeh_chart(p, use_container_width=True)#
 
+    st.markdown("<h3 style='text-align: center; color: grey;'>Select a productivity level to see Genres and Audio Features for that productivity level</h3>", unsafe_allow_html=True)
+
     # Select productivity
     emojis = ['😡','😞', '😐', '🙂', '😃']
     colmns = st.columns(3)
-    emoji_rating = colmns[1].select_slider('Select productivity:', options=emojis)#, format_func = lambda x: "option " + str(x))
+    emoji_rating = colmns[1].select_slider('Select productivity:', options=emojis, value='😐')#, format_func = lambda x: "option " + str(x))
     rating = emojis.index(emoji_rating) + 1
     #rating = st.slider("Select productivity:", 1, 5, 1)
 
