@@ -9,7 +9,7 @@ from functions.visualisations import *
 
 
 def app():
-    
+
     # Select period
     option = st.selectbox('Select period',('Last year', 'Last six months', 'Last month'))
 
@@ -42,12 +42,14 @@ def app():
 
     # Artist table
     left.markdown("<h3 style='text-align: center; color: grey;'>Top 20 artists</h3>", unsafe_allow_html=True)
-    left.dataframe(artist, 2000, 1000)
+    #left.dataframe(artist, 2000, 1000)
+    left.table(artist)
 
     # Song table
     right.markdown("<h3 style='text-align: center; color: grey;'>Top 20 songs</h3>", unsafe_allow_html=True)
-    right.dataframe(tracks, 2000, 1000)
-
+    #right.dataframe(tracks, 2000, 1000)
+    right.table(tracks)
+    
     # Song popularity table
     track_popularity.index += 1
     track_popularity.columns = ['Track name', 'Popularity']
@@ -67,7 +69,8 @@ def app():
     artist_polar.columns = ['feat', 'value']
 
     # Split to two columns
-    left, right = st.columns(2)
+    left, right = st.columns(2) # Need the same command two times or else wrong layout
+    left, right = st.columns(2) # Don't know why
 
     # Polar plots
     polar_plot(artist_polar, 20, "Popularity on your top artists", left)
@@ -78,12 +81,21 @@ def app():
 
     # Genre table
     center.markdown("<h3 style='text-align: center; color: grey;'>Top 10 genres</h3>", unsafe_allow_html=True)
-    center.dataframe(genre_popularity)
+    #center.dataframe(genre_popularity)
+    center.table(genre_popularity)
 
     # Most popular song
     left.markdown("<h3 style='text-align: center; color: grey;'>Top 10 popular songs</h3>", unsafe_allow_html=True)
-    left.dataframe(track_popularity)
+    #left.dataframe(track_popularity)
+    left.table(track_popularity)
     
     # Most popular artist
     right.markdown("<h3 style='text-align: center; color: grey;'>Top 10 popular artists</h3>", unsafe_allow_html=True)
-    right.dataframe(artist_popularity)
+    #right.dataframe(artist_popularity)
+    right.table(artist_popularity)
+
+    # Explain popularity
+    st.info(
+    """
+    The popularity of the track. The value will be between 0 and 100, with 100 being the most popular. The popularity of a track is a value between 0 and 100, with 100 being the most popular. The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are. Generally speaking, songs that are being played a lot now will have a higher popularity than songs that were played a lot in the past. Duplicate tracks (e.g. the same track from a single and an album) are rated independently. Artist and album popularity is derived mathematically from track popularity. Note that the popularity value may lag actual popularity by a few days: the value is not updated in real time.    """
+    )
