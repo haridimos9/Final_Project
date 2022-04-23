@@ -60,7 +60,7 @@ def app():
 
     if deleted:
         form = pd.read_csv('./data/saved_data/submission.csv')
-        form = form.drop(row).reset_index(drop=True)
+        form = form.drop(row-1).reset_index(drop=True)
         form.to_csv('./data/saved_data/submission.csv', index=False)
         st.success("Your rating was deleted.")
 
