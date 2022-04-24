@@ -19,7 +19,7 @@ t1.image('images/Spotify-logo.png', width = 150)
 t2.title("Productivity and Spotify")
 
 # Information about the app
-with st.expander("ℹ️ - About this app", expanded=True):
+with st.expander("ℹ️ - About this app", expanded=False):
     st.write(
     """     
     The Productivity and Spotify is an app which connects your music with your activities to give an overview of your productivity.

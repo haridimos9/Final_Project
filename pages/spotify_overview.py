@@ -68,6 +68,10 @@ def app():
     artist_polar = artist[['Artist', 'Popularity']][0:10]
     artist_polar.columns = ['feat', 'value']
 
+    # Explain plots
+    with st.expander("ℹ️ - About the plots", expanded=False):
+        st.write('Two polar plots comparing the popularity on your most listened artists and the count on your most listened genres')
+
     # Split to two columns
     left, right = st.columns(2) # Need the same command two times or else wrong layout
     left, right = st.columns(2) # Don't know why
