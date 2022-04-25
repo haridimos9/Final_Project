@@ -42,11 +42,15 @@ def app():
     polar_trackfeatures = polar_trackfeatures.mean().reset_index()
     polar_trackfeatures.columns = ['feat', 'value']
 
+    # Explain plots
+    with st.expander("ℹ️ - About this page", expanded=False):
+        st.write('Here you can see all the relevant features of the music that you listen to during all the activity categories.')
+
     # Split to three columns
     left, center, right = st.columns(3)
     
     # Subtitle
-    center.markdown("<h3 style='text-align: center; color: grey;'>Genre and Audio features</h3>", unsafe_allow_html=True)
+    center.markdown("<h2 style='text-align: center; color: grey;'>Preferences of genres and audio features during every activity</h2>", unsafe_allow_html=True)
 
     # Polar plots
     left, right = st.columns(2)
@@ -70,8 +74,8 @@ def app():
 
     # Most listened song
     left.markdown("<h3 style='text-align: center; color: grey;'>Most listened tracks</h3>", unsafe_allow_html=True)
-    left.dataframe(track_popularity)
+    left.table(track_popularity)
     
     # Most listened artist
     right.markdown("<h3 style='text-align: center; color: grey;'>Most listened artists</h3>", unsafe_allow_html=True)
-    right.dataframe(artist_popularity)
+    right.table(artist_popularity)

@@ -7,7 +7,7 @@ import streamlit as st
 
 
 def app():
-    
+
     form_1 = st.form(key="Submit")
     if os.path.exists("./data/saved_data/submission.csv"):
         form_2 = st.form(key="Delete")

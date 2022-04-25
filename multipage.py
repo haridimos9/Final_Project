@@ -30,7 +30,7 @@ class MultiPage:
         )
 
     def run(self):
-        # Drodown to select the page to run  
+        # Dropdown to select the page to run  
         page = st.sidebar.selectbox(
             'App Navigation', 
             self.pages, 
