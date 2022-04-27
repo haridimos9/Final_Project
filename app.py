@@ -8,7 +8,7 @@ from pages import submit_activity, spotify_overview, audio_features_overview, ac
 
 
 # Wide page
-st.set_page_config(layout="wide") 
+st.set_page_config(page_title="Productivity Tracking App", page_icon="🧠", layout="wide", initial_sidebar_state="auto", menu_items=None,) 
 
 # Create an instance of the app 
 app = MultiPage()
