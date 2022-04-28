@@ -21,9 +21,9 @@ def app():
         #comment = st.text_area("Comment:")
         cols = st.columns(2)
         start_date = cols[0].date_input("Starting Date:", datetime.date.today())
-        start_time = cols[1].time_input("Starting Time:", datetime.datetime.now() + datetime.timedelta(hours=2))
+        start_time = cols[1].time_input("Starting Time:", datetime.datetime.now()) #+ datetime.timedelta(hours=2))
         end_date = cols[0].date_input("Ending Date:", datetime.date.today()) #+ datetime.timedelta(days=1))
-        end_time = cols[1].time_input("Ending Time:", datetime.datetime.now() + datetime.timedelta(hours=3))        
+        end_time = cols[1].time_input("Ending Time:", datetime.datetime.now() + datetime.timedelta(hours=2))        
         start_datetime = datetime.datetime.combine(start_date, start_time)#.isoformat()
         end_datetime = datetime.datetime.combine(end_date, end_time)#.isoformat()
 
