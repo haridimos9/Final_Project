@@ -15,7 +15,7 @@ app = MultiPage()
 
 # Title of the main page
 t1, t2 = st.columns((0.07,0.65))  
-t1.image('images/brain.png', width = 150)
+t1.image('images/brain.png', width = 100)
 t2.title("Productivity and Spotify")
 
 # Information about the app
