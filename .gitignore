@@ -3,6 +3,9 @@
 __pycache__/
 *.py[cod]
 
+# fuck .DS_Store
+.DS_Store
+
 # Idea software family
 .idea/
 
