@@ -1,6 +1,6 @@
 # <p style="text-align: center;"> Spotify & Productivity <p>
 
-This GitHub repository holds the code final prototype for the course 02808 Personal Data Interaction for Mobile and Wearables, taught from February 2nd. 2022 to May 11th. 2022 at the Technical University of Denmark (DTU), Lyngby, Copenhagen.
+This GitHub repository holds the code for the final prototype for the course 02808 Personal Data Interaction for Mobile and Wearables, taught from February 2nd. 2022 to May 11th. 2022 at the Technical University of Denmark (DTU), Lyngby, Copenhagen.
 
 
 ### General Information:
