@@ -13,12 +13,16 @@ This GitHub repository holds the code final prototype for the course 02808 Perso
 - **Project deadline**: May 11th., 2022
 
 
-- **Creators**:
+- **Creators & Contributors**:
     - Christian Røssel, Human Centered Artificial Intelligence, Technical University of Denmark (DTU), Copenhagen, Denmark, s213554@dtu.dk
     - Chrysostomos Papadopoulos, Human Centered Artificial Intelligence, Technical University of Denmark (DTU), Copenhagen, Denmark, s210603@dtu.dk
     - Charidimos Vradis, Human Centered Artificial Intelligence, Technical University of Denmark (DTU), Copenhagen, Denmark, s212441@dtu.dk
-  
-  
+
+    [![](https://avatars.githubusercontent.com/u/70704619?s=50&v=4)](https://github.com/ChristianRoessel)
+    [![](https://avatars.githubusercontent.com/u/66020282?s=50&v=4)](https://github.com/Chrypapado)
+    [![](https://avatars.githubusercontent.com/u/18086404?s=50&v=4)](https://github.com/haridimos9)
+
+
 ### Final paper
 See the scientific paper (final project):
 - **[Overleaf Project (Scientific Paper)](https://www.overleaf.com/read/zfbkwsnfyknj)**
@@ -35,8 +39,8 @@ She the application (running and hosted on Streamlit framework and servers), cli
 
 For privacy reasons, the **Client ID** and **Client Secret** *has been removed* in the following .py and .ipynb files (GitHub path): <br>
 
-- `spotify_enrich_MyData` $\to$ `1_spotify_enrichment.ipynb`
-- `spotify_get_data` $\to$ `get_data` $\to$ `server.py`
+- `spotify_enrich_MyData` &#8594; `1_spotify_enrichment.ipynb`
+- `spotify_get_data` &#8594; `get_data` &#8594; `server.py`
 
     
 ---
@@ -47,17 +51,17 @@ For privacy reasons, the **Client ID** and **Client Secret** *has been removed* 
 2. [Create s Spotify application](https://developer.spotify.com/dashboard/applications/)
 3. Find your Client ID and Client Secret in your [Spotify developer dashboard](https://developer.spotify.com/dashboard/).
 4. Add **Client ID** and **Client Secret** to (`INSERT_CLIENT_ID` & `INSERT_CLIENT_SECTRET`) in the following files:
-- `spotify_enrich_MyData` $\to$ `1_spotify_enrichment.ipynb` and 
-- `spotify_get_data` $\to$ `get_data` $\to$ `server.py`
+- `spotify_enrich_MyData` &#8594; `1_spotify_enrichment.ipynb` and 
+- `spotify_get_data` &#8594; `get_data` &#8594; `server.py`
 
 
 ---
 
 ### Extra info:
-For `spotify_enrich_MyData` $\to$
+For `spotify_enrich_MyData` &#8594;
 - `1_spotify_enrichment.ipynb`, 
 - `2_activity_enrichment.ipynb` and 
 - `3_spotify_visualisations.ipynb` 
 
 $\ldots$ to work, you will need to have some data available. Example data for this application to work can be found in the following path
-- `spotify_enrich_MyData` $\to$ `MyData` $\to$ `StreamingHistory3.json`
+- `spotify_enrich_MyData` &#8594; `MyData` &#8594; `StreamingHistory3.json`
