@@ -14,9 +14,9 @@ This GitHub repository holds the code final prototype for the course 02808 Perso
 
 
 - **Creators & Contributors**:
-    - [![](https://avatars.githubusercontent.com/u/70704619?s=50&v=4)](https://github.com/ChristianRoessel) Christian Røssel, Human Centered Artificial Intelligence, Technical University of Denmark (DTU), Copenhagen, Denmark, s213554@dtu.dk
-    - [![](https://avatars.githubusercontent.com/u/66020282?s=50&v=4)](https://github.com/Chrypapado) Chrysostomos Papadopoulos, Human Centered Artificial Intelligence, Technical University of Denmark (DTU), Copenhagen, Denmark, s210603@dtu.dk
-    - [![](https://avatars.githubusercontent.com/u/18086404?s=50&v=4)](https://github.com/haridimos9) Charidimos Vradis, Human Centered Artificial Intelligence, Technical University of Denmark (DTU), Copenhagen, Denmark, s212441@dtu.dk
+    - [Christian Røssel](https://github.com/ChristianRoessel), Human Centered Artificial Intelligence, Technical University of Denmark (DTU), Copenhagen, Denmark, s213554@dtu.dk
+    - [Chrysostomos Papadopoulos](https://github.com/Chrypapado), Human Centered Artificial Intelligence, Technical University of Denmark (DTU), Copenhagen, Denmark, s210603@dtu.dk
+    - [Charidimos Vradis](https://github.com/haridimos9), Human Centered Artificial Intelligence, Technical University of Denmark (DTU), Copenhagen, Denmark, s212441@dtu.dk
 
 
 ### Final paper
