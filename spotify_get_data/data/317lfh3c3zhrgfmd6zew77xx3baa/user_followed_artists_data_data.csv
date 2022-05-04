@@ -1,0 +1,16 @@
+name,followers,popularity,genres,image_url,external_url
+Red Hot Chili Peppers,17765105,86,"['alternative rock', 'funk metal', 'funk rock', 'permanent wave']",https://i.scdn.co/image/ab67616100005174b0dd96d5c6fcd8b068834373,https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5
+Måneskin,5717400,83,"['indie rock italiano', 'italian pop']",https://i.scdn.co/image/ab67616100005174b760340fd14e8ea7e6775253,https://api.spotify.com/v1/artists/0lAWpj5szCSwM4rUMHYmrr
+DMX,3262884,75,"['east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'pop rap', 'rap']",https://i.scdn.co/image/ab6772690000dd223074f51af22630a1c86da016,https://api.spotify.com/v1/artists/1HwM5zlC5qNWhJtM00yXzG
+Queen,40484943,88,"['classic rock', 'glam rock', 'rock']",https://i.scdn.co/image/af2b8e57f6d7b5d43a616bd1e27ba552cd8bfd42,https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d
+Avicii,21534565,85,"['dance pop', 'edm', 'pop', 'pop dance']",https://i.scdn.co/image/ab6761610000517409bf4814c6585e1f69dfeef7,https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+Gorillaz,8434833,82,['alternative hip hop'],https://i.scdn.co/image/ab676161000051747284ae7f774c3b71a6e5ce64,https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ
+The Beatles,22302228,88,"['beatlesque', 'british invasion', 'classic rock', 'merseybeat', 'psychedelic rock', 'rock']",https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433,https://api.spotify.com/v1/artists/3WrFJ7ztbogyGnTHbHJFl2
+Michael Jackson,22216994,85,"['pop', 'r&b', 'soul']",https://i.scdn.co/image/ab67616100005174a2a0b9e3448c1e702de9dc90,https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm
+50 Cent,8720628,86,"['east coast hip hop', 'gangster rap', 'hip hop', 'pop rap', 'queens hip hop', 'rap']",https://i.scdn.co/image/6f0da41419b31d9d2ba55d2df212f59ad0668118,https://api.spotify.com/v1/artists/3q7HBObVc0L8jNeTe5Gofh
+Freddie Mercury,5551535,64,['glam rock'],https://i.scdn.co/image/ab676161000051741052b77abd7f89485562d797,https://api.spotify.com/v1/artists/4M1FpEWs2PeYfJe7xxJfhH
+Imagine Dragons,39087709,92,"['modern rock', 'rock']",https://i.scdn.co/image/ab67616100005174920dc1f617550de8388f368e,https://api.spotify.com/v1/artists/53XhwfbYqKCa1cC15pYq2q
+Kanye West,16843493,96,"['chicago rap', 'rap']",https://i.scdn.co/image/ab67616100005174867008a971fae0f4d913f63a,https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x
+AC/DC,22752987,84,"['australian rock', 'hard rock', 'rock']",https://i.scdn.co/image/ab67616100005174c4c77549095c86acb4e77b37,https://api.spotify.com/v1/artists/711MCceyCBcFnzjGY4Q7Un
+Eminem,53968800,95,"['detroit hip hop', 'hip hop', 'rap']",https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b,https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR
+Green Day,13160289,83,"['permanent wave', 'punk']",https://i.scdn.co/image/ab67616100005174047eac333eff0be4abe32cbf,https://api.spotify.com/v1/artists/7oPftvlwr6VrsViSDV7fJY
