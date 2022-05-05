@@ -59,5 +59,5 @@ For `spotify_enrich_MyData` &#8594;
 - `2_activity_enrichment.ipynb` and 
 - `3_spotify_visualisations.ipynb` 
 
-$\ldots$ to work, you will need to have some data available. Example data for this application to work can be found in the following path
+... to work, you will need to have some data available. Example data for this application to work can be found in the following path
 - `spotify_enrich_MyData` &#8594; `MyData` &#8594; `StreamingHistory3.json`
